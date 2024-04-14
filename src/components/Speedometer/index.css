@@ -1,0 +1,58 @@
+.speedometer-container {
+  background-color: #07080c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+}
+
+.image {
+  width: 70%;
+}
+
+.speed {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.note {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #cbd5e1;
+  text-align: center;
+}
+
+.speed-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  height: 40px;
+  width: 120px;
+  border-width: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+}
+
+.brake-button {
+  background-color: transparent;
+  color: #ffffff;
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  border: 1px solid #94a3b8;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+}
